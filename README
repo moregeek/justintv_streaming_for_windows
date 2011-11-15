@@ -1,0 +1,19 @@
+1)   Clone Git Repository or download zip file from Github.
+1.1) Extract it to "C:\stream\"
+
+2)   Download the latest VLC player for Windows from:
+      http://www.videolan.org/vlc/download-windows.html
+2.1) Unpack VLC in that way that the "vlc.exe" is located in the "vlc" directory!
+
+3) Download the latest "jtvlc" from the justin.tv wiki (there you find the zip 
+   with phyton included. (or take the source from: https://github.com/justintv/jtvlc
+   and extract it to the subdirectory: "jtv")
+
+4) Check out the to playlist files within the "playlist" directory and customize it.
+    (This example is with two axis network cameras)
+
+5) Check the "camX.bat" files in the main directory and edit the following Lines:
+      JTV_USERNAME
+      JTV_STREAM_KEY
+
+6) Run the bat files and it should work.
